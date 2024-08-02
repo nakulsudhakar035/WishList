@@ -1,4 +1,4 @@
-package com.learner.wishlist
+package com.learner.wishlist.view
 
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
@@ -13,6 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.unit.dp
+import com.learner.wishlist.R
 
 @Composable
 fun AppBarView(
@@ -42,10 +43,10 @@ fun AppBarView(
                 modifier = Modifier
                     .padding(start = 4.dp)
                     .heightIn(24.dp)
-                )
-           },
-            elevation = 3.dp,
-            backgroundColor = colorResource(id = R.color.bar_color),
-            navigationIcon = navigationIcon
-         )
+            )
+        },
+        elevation = 3.dp,
+        backgroundColor = colorResource(id = R.color.bar_color),
+        navigationIcon = navigationIcon
+    )
 }

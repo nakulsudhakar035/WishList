@@ -1,4 +1,4 @@
-package com.learner.wishlist
+package com.learner.wishlist.view
 
 sealed class Screen(val route: String) {
     object HomeScreen: Screen("home_screen")

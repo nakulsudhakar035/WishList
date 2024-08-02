@@ -1,4 +1,4 @@
-package com.learner.wishlist
+package com.learner.wishlist.view
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
